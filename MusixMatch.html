@@ -1,0 +1,19 @@
+<html>
+ <head>
+  <title>Shakira's Hips don't lie</title>
+
+<body>
+
+
+  <script>
+function musixMatch(myData){
+  console.log(myData.message.body.artist_list[0].artist.artist_twitter_url);
+}
+</script>
+
+<script src='https://api.musixmatch.com/ws/1.1/artist.search?apikey=18f7c464ec101e17043ab2780183593e&q_artist=Shakira&format=jsonp&callback=musixMatch'>
+</script>
+</body>
+
+<!-- src='http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=flickrResults&tags=monkey&format=json -->
+</html>
